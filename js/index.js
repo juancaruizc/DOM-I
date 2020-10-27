@@ -80,3 +80,29 @@ header.textContent = siteContent['cta']['h1'];
 let button = document.querySelector('button');
 button.textContent = siteContent['cta']['button'];
 //button
+
+//features
+document.getElementsByTagName('h4')[0].textContent =
+  siteContent['main-content']['features-h4'];
+
+document.getElementsByTagName('p')[0].textContent =
+  siteContent['main-content']['features-content'];
+//features
+
+//about
+document.getElementsByTagName('h4')[1].textContent =
+  siteContent['main-content']['about-h4'];
+
+document.getElementsByTagName('p')[1].textContent =
+  siteContent['main-content']['about-content'];
+//about
+
+//image banner
+let banner = document.getElementById('middle-img');
+banner.setAttribute('src', siteContent['main-content']['middle-img-src']);
+//image banner
+
+//bottom section
+document.getElementsByTagName('h4')[0].textContent =
+  siteContent['main-content']['features-h4'];
+//bottom section
